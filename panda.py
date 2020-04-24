@@ -13,6 +13,7 @@ def df_from_url(url):
 
 # Uncomment the lines below to sleep for a bit
 # useful to demonstrate kernel startup on container environments
+
 # delay(5)
 
 # Sample panda code to manipulate the generated data frame 
