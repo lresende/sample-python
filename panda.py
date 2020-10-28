@@ -19,7 +19,7 @@ def df_from_url(url):
 
 # Sample panda code to manipulate the generated data frame 
 # and calculate mean price per city/zipcode
-df = df_from_url('http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv')
+df = df_from_url('https://raw.githubusercontent.com/lresende/sample-python/master/data/Sacramento-RealEstate-Transactions.csv')
 df.groupby('city')['price'].mean()    
 
 
